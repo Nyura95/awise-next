@@ -4,4 +4,5 @@ import { Store } from 'redux';
 
 export interface IProps extends Props<{}> {
   store: Store<IReduxState>;
+  req: Request;
 }

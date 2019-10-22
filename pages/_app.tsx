@@ -49,4 +49,4 @@ class MyApp extends App<IProps> {
 }
 
 // @ts-ignore
-export default withRedux(makeStore, { test: 'tes' })(MyApp);
+export default withRedux(makeStore)(MyApp);
